@@ -172,3 +172,4 @@ git checkout <branch_name>
 git checkout master
 ```
 ## Заключение
+Создадим одну новую ветку
