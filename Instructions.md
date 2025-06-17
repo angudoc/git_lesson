@@ -183,6 +183,10 @@ git remote add origin https://github.com/angudoc/git_lesson.git
 git branch -M main
 git push -u origin main
 ```
+Все последующие изменения также отправляем, используя команду
+```
+git push -u origin main
+```
 6. Если случайно не удалось связать свой аккаунт на Github с Git, меняем SSH-keygen 
 ```
 ssh-keygen -t rsa -b 4096 -C "angudoc@gmail.com"
@@ -194,5 +198,6 @@ ssh-keygen -t rsa -b 4096 -C "angudoc@gmail.com"
    затем заново повторяем команды из **пункта 5.**
 
 7. В окне на GitHub появляется возможность отправить pull request.
+
 ## Заключение
 Создадим одну новую ветку, затем третью и четвертую
